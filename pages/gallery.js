@@ -16,6 +16,7 @@ export default function gallery() {
         </div>
 
         <div id="hello" className="gallery-container">
+            <GalleryImage name="point.png" tag="" />
             <GalleryImage name="olivia.jpg" tag=""/>
             <GalleryImage name="BeanieRevamp.png" tag=""/>
             <GalleryImage name="lean.png" tag=""/>
