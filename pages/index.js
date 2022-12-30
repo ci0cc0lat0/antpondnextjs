@@ -18,8 +18,9 @@ export default function index() {
       <Link href="/list">
         <Header heading="List" testValue='List'/>
       </Link>
-      <Header heading="Records" testValue='Records'/>
       <Header heading="Pages" testValue='Pages'/>
+      <Header heading="Records" testValue='Records'/>
+      
     </div>
   )
 }
