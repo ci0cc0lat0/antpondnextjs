@@ -14,12 +14,14 @@ export default function index() {
       <Link href="/gallery">
         <Header heading="Gallery" testValue='Gallery'/>
       </Link>
-      
       <Link href="/list">
         <Header heading="List" testValue='List'/>
       </Link>
       <Header heading="Pages" testValue='Pages'/>
       <Header heading="Records" testValue='Records'/>
+      <Header>
+        
+      </Header>
       
     </div>
   )
