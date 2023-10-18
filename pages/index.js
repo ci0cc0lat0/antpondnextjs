@@ -5,7 +5,7 @@ import Header from '../components/Header.js'
 export default function index() {
   return (
     <div className="title-flip">
-      <a href="https://twitter.com/MemesBeDanko">
+      <a href="">
       <Header heading="The" testValue="The"/>
       <Header heading="Ant" testValue="Ant"/>
       <Header heading="Pond" testValue="Pond"/>

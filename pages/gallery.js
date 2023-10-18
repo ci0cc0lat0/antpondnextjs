@@ -27,14 +27,18 @@ export default function gallery() {
             <GalleryImage name="ThisIsntAboutYou.png" tag=""/>
             <GalleryImage name="baddays.png" tag=""/>
             <GalleryImage name="FuckIfIKnow.png" tag=""/>
+            {/*
             <GalleryImage name="CebCock.png" tag="nsfw"/>
             <GalleryImage name="How i hold my joystick.png" tag="nsfw"/>
+            */}
             <GalleryImage name="Pasted image 20211118231633.png" tag=""/>
             <GalleryImage name="Pasted image 20211118231830.png" tag=""/>
             <GalleryImage name="Pasted image 20211118231914.png" tag=""/>
             <GalleryImage name="Right My Wrongs.png" tag=""/>
             <GalleryImage name="Scene.png" tag=""/>
+            {/*
             <GalleryImage name="SpaceCowBoy.png" tag="nsfw"/>
+          */}
             <GalleryImage name="ash.png" tag=""/>
             <GalleryImage name="beachnobody.png" tag=""/>
             <GalleryImage name="maggie.png" tag=""/>
