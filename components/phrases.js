@@ -121,7 +121,7 @@ export const phrases = [
     },
     {
         name: "Melanhap",
-        caption: "I wonder what happened to you"
+        caption: "<s>I wonder what happened to you</s><br>I know what happened to you. Thank you. My mind is at rest for now..."
     },
     {
         name: "Contrived smiles and a bill of goods",
