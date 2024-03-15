@@ -1,5 +1,10 @@
 export const phrases = [
     {
+        name:"Unrealistic Expectations",
+        caption:"I listen. I water. I reflect. I imagine the unimaginable. I imagine the realistic. I pick wrong. I wonder what went wrong. I end up alone. I end up missing you. I end up missing all of you. I regret. I weep. I move on. I repeat."
+
+    },
+    {
         name:"Don't avert your gaze for me",
         caption:"We act different depending on the company."
     },
