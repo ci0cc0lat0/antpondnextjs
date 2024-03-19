@@ -1,11 +1,12 @@
 export const phrases = [
     {
         name:"Courage",
-        caption:"You weren't kidding about your ___ _____!<br>"+
+        caption:"",
+        fill:"bad habit, interaction",
+        later:"You weren't kidding about your ___ _____!<br>"+
         "But, I don't really care. "+
         "Shit happens, life goes on. I get that. <br>"+
-        "Perhaps we can try another ___________ but if not I understand.",
-        fill:"bad habit, interaction"
+        "Perhaps we can try another ___________ but if not I understand."
     },
     {
         name:"Thanks for being who you were",
