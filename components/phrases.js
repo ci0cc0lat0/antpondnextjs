@@ -1,5 +1,18 @@
 export const phrases = [
     {
+        name:"Courage",
+        caption:"You weren't kidding about your ___ _____!<br>"+
+        "But, I don't really care. "+
+        "Shit happens, life goes on. I get that. <br>"+
+        "Perhaps we can try another ___________ but if not I understand.",
+        fill:"bad habit, interaction"
+    },
+    {
+        name:"Thanks for being who you were",
+        caption:"A white room full of familiar faces and red eyes.<br><br>"+
+        "I saw two events. An open eye and a tear from that eye. I believe he could hear us, understand us." 
+    },
+    {
         name:"Unrealistic Expectations",
         caption:"I listen. I water. I reflect. I imagine the unimaginable. I imagine the realistic. I pick wrong. I wonder what went wrong. I end up alone. I end up missing you. I end up missing all of you. I regret. I weep. I move on. I repeat."
 
