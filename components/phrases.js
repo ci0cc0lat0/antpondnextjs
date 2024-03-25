@@ -1,5 +1,19 @@
 export const phrases = [
     {
+        name:"Month of March",
+        caption:`Normally, these events alone would not cause such grief, but together, they turned my days miserable, and long, and tiresome. 
+        <br><br>
+        He was young and undeserving. While we could of been closer, the impact he had on the others was what I found hardest to deal with. It was not the machines nor condition but rather the group's words and reactions that wrecked me. A life hard fought and lived led to this moment. I know grief.
+        <br><br>
+        While I wasn't tricked and no permanent damage incurred, my expectations were shattered. I've always had a "things will work out" mentality and this was proof of that. After uncovering the truth, my confusion lie with not my failed mentality, but with expectations. I know demotivation. 
+        <br><br>
+        I got excited, too excited over nothing. Compounded by everything else, this was a fresh escape to something new. And I get it, it happens, I cannot argue with the reality I live in, be it my fault or not. Despite the facts, I am bothered by what the past was and what the future could of been. A long winded fizzle, a short lived good time, an honest connection? I decided none of those terms. While I hold no malice, I do now own a soreness and a nature of second guessing. A soreness caused by a returning wonder and repeated abandonment. This is not my first and if I am the problem, it will not be the last. I know being jaded.
+        <br><br>
+        Alone I would like to think none of these would break me as much as they did. Over the cracks and bruises and being kicked while down, I broke character. Now I am burnt out, seeking distractions, and enjoying things less. The <strike>absurd</strike> thing is, regardless of the hardships, I know I will bounce back, keep my head afloat. Despite <i>knowing</i> that as of now, it is hard to see the light through of the ocean above me. I am tired. 
+        <br><br>
+        Life. Means. Companionship.`
+    },
+    {
         name:"Courage",
         caption:"",
         fill:"bad habit, interaction",
@@ -140,7 +154,7 @@ export const phrases = [
     },
     {
         name: "Melanhap",
-        caption: "<s>I wonder what happened to you</s><br>I know what happened to you. Thank you. My mind is at rest for now..."
+        caption: "I wonder what happened to you<br><s>I know what happened to you. Thank you. My mind is at rest for now...</s>"
     },
     {
         name: "Contrived smiles and a bill of goods",
