@@ -1,5 +1,9 @@
 export const phrases = [
     {
+        name:"On that mountain",
+        caption:""
+    },
+    {
         name:"Month of March",
         caption:`Normally, these events alone would not cause such grief, but together, they turned my days miserable, and long, and tiresome. 
         <br><br>
@@ -155,7 +159,7 @@ export const phrases = [
     },
     {
         name: "Melanhap",
-        caption: "I wonder what happened to you<br><s>I know what happened to you. Thank you. My mind is at rest for now...</s>"
+        caption: "I wonder what happened to you<br><s>I knew what happened to you.</s>"
     },
     {
         name: "Contrived smiles and a bill of goods",

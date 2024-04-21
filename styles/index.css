@@ -175,3 +175,78 @@ content:" *";
   filter: blur(0px);
 
 }
+
+
+
+/* record and record comp */
+.audio-container {
+  margin: 1rem auto 1rem auto;
+  width: 33%;
+  min-width: 600px;
+  background: #c7dbff;
+  transition: background-color 0.18s ease;
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+
+
+.audio-tag{
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 50px;
+  z-index: 1
+}
+
+.audio-title{
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0;
+  z-index: 1;
+}
+
+.audio-caption{
+  margin: auto;
+  width: 90%;
+  margin-top: 1rem;
+  height: 50px;
+  background-color: #aabadf;
+  position: relative;
+  bottom: 0;
+  left:0;
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.audio-dropdown{
+  display: none;
+  position: absolute;
+  overflow: visible;
+  cursor: pointer;
+  min-width: 160px;
+  text-align:center ;
+}
+.audio-show{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  
+}
+
+.audio-caption p{
+
+  text-align: center;
+  white-space: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media (max-width:700px) {
+  .audio-container{
+    min-width: 300px;
+  }
+}
