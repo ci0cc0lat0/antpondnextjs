@@ -1,5 +1,10 @@
 export const recordings = [
     {
+        name:"Alones p1",
+        src:"alonespart1.wav",
+        caption:""
+    },
+    {
         name:"Closure",
         src:"audio_song006.wav",
         caption:""
