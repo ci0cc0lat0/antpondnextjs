@@ -4,7 +4,7 @@ import Link from 'next/link'
 import AudioComp from '../components/AudioComp';
 import {recordings} from '../components/recordings'
 
-export async function getStaticProps(){
+/* export async function getStaticProps(){
   const res  = await fetch("http://192.168.1.253:1337/api/records?sort=createdAt:desc&populate=*")
   const post = await res.json()
 
@@ -14,11 +14,9 @@ export async function getStaticProps(){
     }
   }
 
-}
+} */
 
-
-export default function records({post}) {
-  console.log(post)
+export default function records() {
   return (
     <>
         <div className="title-flip">
@@ -27,12 +25,12 @@ export default function records({post}) {
         </Link>
         <hr></hr>
         </div>
-        {post.data.map(record => {
+        {recordings.map(record => {
             return(
                 <AudioComp
-                audio_name={record.attributes.Title}
-                audio_src={record.attributes.source.data.attributes.name}
-                audio_caption={record.attributes.Caption}
+                audio_name={record.name}
+                audio_src={record.src}
+                audio_caption={record.caption}
             />
             )
           
