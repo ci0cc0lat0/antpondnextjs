@@ -20,7 +20,7 @@ export default function AudioComp({audio_name, audio_src, audio_caption}) {
     }
 
     function renderCaption(caption){
-      if ((caption.length === 0) || (caption == null)) return
+      if ((caption === undefined) || (caption == null) || caption.length === 0 ) return
       else{
         return (
           <div className='audio-caption' onClick={toggle_expanded}>
