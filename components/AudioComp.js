@@ -37,7 +37,7 @@ export default function AudioComp({audio_name, audio_src, audio_caption}) {
     useEffect(()=>{
         lower_volume()
 
-    })
+    },[]) // second argument of useEffect needed to run once on load
   return (
     <>
     <div className='audio-container'>
