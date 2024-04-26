@@ -4,9 +4,11 @@ import Link from 'next/link'
 import AudioComp from '../components/AudioComp';
 import {recordings} from '../components/recordings'
 
+
  export async function getStaticProps(){
+  
   try{
-    const res  = await fetch("http://162.207.101.36:1337/api/records?sort=createdAt:desc&populate=*")
+    const res  = await fetch("http://"+process.env.MY_IP+":1337/api/records?sort=createdAt:desc&populate=*")
     if(!res.ok) throw new Error("Erm my bad!")
     const post = await res.json()
     return{
@@ -24,7 +26,7 @@ import {recordings} from '../components/recordings'
 } 
 
 export default function records({post}) {
-  console.log(post)
+  // console.log(process.env.MY_IP)
   return (
     <>
         <div className="title-flip">
