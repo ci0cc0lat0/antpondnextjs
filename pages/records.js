@@ -7,21 +7,20 @@ import {recordings} from '../components/recordings'
  export async function getStaticProps(){
   try{
     const res  = await fetch("http://162.207.101.36:1337/api/records?sort=createdAt:desc&populate=*")
-    if(!res.ok) throw new Error("Our bad!")
+    if(!res.ok) throw new Error("Erm my bad!")
     const post = await res.json()
     return{
       props:{
         post,
-      }
+      },
+      revalidate: 60,
     }
-  }catch(error){
+  }
+  catch(error){
     console.error('Fetch error:',error)
     throw error
   }
   
-
-  
-
 } 
 
 export default function records({post}) {
