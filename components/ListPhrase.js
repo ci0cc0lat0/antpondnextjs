@@ -3,7 +3,7 @@ import React from 'react'
 export default function ListPhrase({childToParent, onClick, phrase, message}) {
   // data is the phrase.caption from the parent. Here we check of length === 0, we dont make it clickable
   const data = message
-    if(message.length === 0 ){
+    if(message == undefined || message === null || message.length === 0 ){
         return (
             <h3 className='my-list'>{phrase}</h3>
         )
