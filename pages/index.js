@@ -14,8 +14,8 @@ export default function index() {
       <Link href="/gallery">
         <Header heading="Gallery" testValue='Gallery'/>
       </Link>
-      <Link href="/list">
-        <Header heading="List" testValue='List'/>
+      <Link href="/musings">
+        <Header heading="Musings" testValue='Musings'/>
       </Link>
       <Link href="/records">
         <Header heading="Records" testValue='Records'/>
