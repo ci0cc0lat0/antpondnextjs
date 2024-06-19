@@ -53,7 +53,7 @@ export default function list({post}) {
     <>
       <div className='title-flip'>
         <Link href="/">
-          <Header heading="Musings" testValue="Musings" />
+          <Header heading="Muses" testValue="Muses" />
         </Link>
         <hr></hr>
 
