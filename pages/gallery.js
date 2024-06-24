@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 import Header from '../components/Header'
 import GalleryImage from '../components/GalleryImage'
-
 export default function gallery() {
   return (
     <>

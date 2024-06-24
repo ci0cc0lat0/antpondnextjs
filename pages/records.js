@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AudioComp from '../components/AudioComp';
 import {recordings} from '../components/recordings'
 
-
  export async function getStaticProps(){
   
   try{

@@ -4,7 +4,6 @@ import Header from '../components/Header'
 import Modal from '../components/Modal'
 import ListPhrase from '../components/ListPhrase'
 import {phrases} from '../components/phrases'
-
 export async function getStaticProps(){
   // inital request
   const res  = await fetch("http://"+process.env.MY_IP+":1337/api/lists?sort=createdAt:DESC")

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 
+
 export default function GalleryImage({name,tag}) {
   const encoded_URL = encodeURI(name)
   return (
