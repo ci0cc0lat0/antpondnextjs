@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Link from 'next/link'
 import AudioComp from '../components/AudioComp';
 import {recordings} from '../components/recordings'
-export const runtime = 'experimental-edge';
+
  export async function getStaticProps(){
   
   try{
