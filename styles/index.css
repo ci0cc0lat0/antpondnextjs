@@ -4,7 +4,7 @@ html{
   background-color:#2b2a33;
   font-family:Spartan;
   /* Fades in the website on load. Takes 2.5 seconds */
-  animation: fadeInAnimation ease 2.5s;
+  /*animation: fadeInAnimation ease 2.5s; */
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }

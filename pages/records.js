@@ -7,7 +7,7 @@ import {recordings} from '../components/recordings'
  export async function getStaticProps(){
   
   try{
-    const res  = await fetch("http://"+process.env.MY_IP+":1337/api/records?sort=createdAt:desc&populate=*")
+    const res  = await fetch("http://"+process.env.MY_IP+"/api/records?sort=createdAt:desc&populate=*")
     if(!res.ok) throw new Error("Erm my bad!")
     const post = await res.json()
     return{
@@ -34,9 +34,10 @@ export default function records({post}) {
         </Link>
         <hr></hr>
         </div>
-        {post.data.map(record => {
+        {post.data.map((record,index) => {
             return(
                 <AudioComp
+                key={index}
                 audio_name={record.attributes.Title}
                 audio_src={record.attributes.source.data.attributes.name}
                 audio_caption={record.attributes.Caption}

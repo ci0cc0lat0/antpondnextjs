@@ -7,7 +7,7 @@ import {phrases} from '../components/phrases'
 
 export async function getStaticProps(){
   // inital request
-  const res  = await fetch("http://"+process.env.MY_IP+":1337/api/lists?sort=createdAt:DESC")
+  const res  = await fetch("http://"+process.env.MY_IP+"/api/lists?sort=createdAt:DESC")
   const init_post = await res.json()
 
   // page parsing
@@ -15,8 +15,8 @@ export async function getStaticProps(){
   const page_amount = init_post.meta.pagination.pageCount
   // collects all pages into a single object 
    for(let i = 1; i <= page_amount; i++){
-    console.log(`http://${process.env.MY_IP}:1337/api/lists?sort=createdAt:DESC&pagination[page]=${i}`)
-    const temp_res = await fetch(`http://${process.env.MY_IP}:1337/api/lists?sort=createdAt:DESC&pagination[page]=${i}`)
+    console.log(`http://${process.env.MY_IP}/api/lists?sort=createdAt:DESC&pagination[page]=${i}`)
+    const temp_res = await fetch(`http://${process.env.MY_IP}/api/lists?sort=createdAt:DESC&pagination[page]=${i}`)
     const temp_post = await temp_res.json()
     temp_post.data.forEach(element => {
       full_post.push(element)
@@ -66,8 +66,9 @@ export default function list({post}) {
         - each object there is given to a listPhrase component
         - When a ListPhrase is clicked, many things happen
          */}
-        {post.data.map(phrase=>{
-          return <ListPhrase 
+        {post.data.map((phrase,index)=>{
+          return <ListPhrase
+          key={index}
           // we pass the function 'childToParent' as a prop
           childToParent={childToParent} 
           // onClick, 'setIsOpen' is set to true as a prop
